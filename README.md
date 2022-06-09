@@ -44,12 +44,14 @@
 > `git clone https://github.com/samay825/Sms-Bomb`
  
 > `cd Sms-Bomb`  
- 
-> `python3 main.py`
 
 > `pip install -r requirements.txt`
 
 > `Username and password : vaimsamay123 and pass : vaimzork123`
+ 
+> `python3 main.py`
+
+
 
 <br>
 
