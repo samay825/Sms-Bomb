@@ -47,7 +47,9 @@
  
 > `python3 main.py`
 
-> Username and password : vaimsamay123 and pass : vaimzork123
+> `pip install -r requirements.txt`
+
+> `Username and password : vaimsamay123 and pass : vaimzork123`
 
 <br>
 
