@@ -25,6 +25,8 @@
 
 * `No missing SMS issues, all messages will be sent.`
 
+*  For Paid Version Contact Instagram : sincryptzork or vaimpier_ritik 
+
 <br>
 
 - Support
@@ -44,8 +46,6 @@
 > `git clone https://github.com/samay825/Sms-Bomb`
  
 > `cd Sms-Bomb`  
-
-> `pip install -r requirements.txt`
 
 > `Username and password : vaimsamay123 and pass : vaimzork123`
  
