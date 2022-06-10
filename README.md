@@ -1,5 +1,5 @@
 # Vaim-Zork Free Version 
-<img src="Vaim-Zork.png"><br>
+<img src="VaimZork.png"><br>
 
 
 
