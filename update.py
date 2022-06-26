@@ -23,7 +23,6 @@ system('cls' if name=='nt' else 'clear')
 system('rm -rf main.py')
 sleep(0.1)
 system('wget https://raw.githubusercontent.com/samay825/Sms-Bomb/main/main.py')
-sleep(0.1)
 print(r+"└─ "+w+"\033[1;37m>> Script Updated <<")
 sleep(0.5)
 
