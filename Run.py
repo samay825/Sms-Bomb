@@ -1,5 +1,5 @@
 # Scripted by Samay
-# Whatsapp Lock
+# Sms-Bomb Lock
 # Simple as Fu#ck
 
 # ---------------- Imports
