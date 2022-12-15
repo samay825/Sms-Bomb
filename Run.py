@@ -78,7 +78,7 @@ class Setup:
             designprint('Successfully Decrypted and unzipped file with password..')
             sleep(3.0)
             exixting_directory_file('Sincryption.zip')
-            os.system('python main.py' if os.name=='nt' else 'python3 main.py')
+            os.system('python premium.py' if os.name=='nt' else 'python3 premium.py')
         except Exception as samay:
             designprint('Password Incorrect !')
             os.system('python Run.py' if os.name=='nt' else 'python3 Run.py')
