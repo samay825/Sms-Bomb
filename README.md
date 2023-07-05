@@ -26,7 +26,7 @@
 
 * `No missing SMS issues, all messages will be sent.`
 
-*  For Paid Version Contact Instagram : sincryptzork or vaimpier_ritik 
+*  For Paid Version Contact Instagram : sincryptasur or vaimpier_ritik 
 
 <br>
 
