@@ -20,14 +20,14 @@ from time import sleep
 system('cls' if name=='nt' else 'clear')
 
 #-------update
-system('rm -rf premium.py')
+
 system('rm -rf main.py')
 sleep(0.1)
-system('wget https://raw.githubusercontent.com/samay825/Sms-Bomb/main/premium.py')
+
 system('wget https://raw.githubusercontent.com/samay825/Sms-Bomb/main/main.py')
 print(r+"└─ "+w+"\033[1;37m>> Script Updated <<")
 sleep(0.5)
 
 # ---------return to main.py file 
-#system('python main.py' if name=='nt' else 'python3 main.py')
-print('script updated now run the script again')
+system('python main.py' if name=='nt' else 'python3 main.py')
+
