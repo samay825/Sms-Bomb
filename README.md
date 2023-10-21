@@ -4,7 +4,7 @@
 
 
 
-- What is Vaim-Zork Free Version System  ?
+- What is Zork Free Version System  ?
 > This is sms bomber who send otp in target phone number unlimitly.
 > Many times you just want to annoy or play a prank on your friends.
 > If you find yourself in that situation then this SMS Bomber is the perfect tool for you!
