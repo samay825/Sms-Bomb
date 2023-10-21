@@ -1,4 +1,4 @@
-# Vaim-Zork Free Version 
+# Zork Free Version 
 <img src="SamayPro.png"><br>
 
 
@@ -9,7 +9,7 @@
 > Many times you just want to annoy or play a prank on your friends.
 > If you find yourself in that situation then this SMS Bomber is the perfect tool for you!
 > You can send unlimited SMS to anyone. This awesome app works with every operator/carrier.
-> this tool made by @vaimpierritik x @samay825 
+> this tool made by @samay825 
 
 <br>
 
@@ -26,7 +26,7 @@
 
 * `No missing SMS issues, all messages will be sent.`
 
-*  For Paid Version Contact Instagram : sincryptasur or vaimpier_ritik 
+*  For Paid Version Contact Instagram : sincryptasur 
 
 <br>
 
@@ -48,8 +48,6 @@
  
 > `cd Sms-Bomb`  
 
-> `Username and password : vaimsamay123 and pass : vaimzork123`
- 
 > `python3 main.py`
 
 
