@@ -111,6 +111,9 @@ sudo python3 main.py
 
 * `Free version speed is in goodflow`
 
+## Partners
+* `Zork/Xlr8`
+
 ## Note
 * `This Sms-Bomb is mainly to prank Friends`
 
