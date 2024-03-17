@@ -129,5 +129,5 @@ Apache 2.0 © Samay825
 ## Telegram Channel
 
 * `All updates of Team Sincryption will be posted here !`
-* * `Link : https://t.me/TeamSincryption`
+* `Link : https://t.me/TeamSincryption`
 
