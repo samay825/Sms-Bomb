@@ -131,9 +131,3 @@ Apache 2.0 © Samay825
 * `All updates of Team Sincryption will be posted here !`
 * * `Link : https://t.me/TeamSincryption`
 
-<a href="https://t.me/TeamSincryption">
-         <img src="https://smartiblogster.com/wp-content/uploads/2021/03/smartiblogster-iblogster-join-telegram-channel.png">
-
-
-
-
