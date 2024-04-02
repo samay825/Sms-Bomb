@@ -3,3 +3,4 @@ aiohttp
 pycryptodome
 pwinput
 tqdm
+wget
