@@ -20,13 +20,7 @@ _Don't use this to take revenge_<br />
 
 ## Tested On :
 <ul>
-  <li>Kali Linux</li>
   <li>Termux</li>
-  <li>Ubuntu</li>
-  <li>Parrot Sec OS</li>
-  <li>Kali nethunter</li>
-  <li>Alpine linux</li>
-  
 </ul>
 
 ## Termux Issue:
@@ -74,34 +68,6 @@ Run the script
 python3 main.py
 ```
 
-
-
-#### For Debian-based GNU/Linux distributions
-
-Update the packages
-```bash
-apt-get update; apt-get upgrade -y
-```
-Install some dependencies
-```bash
-apt-get install git wget python3 -y
-```
-Clone the repository
-```bash
-git clone https://github.com/samay825/Sms-Bomb
-```
-Go to the Sms-Bomb directory
-```bash
-cd Sms-Bomb
-```
-Now Install the Requirements 
-```bash
-pip install -r requirements.txt
-```
-Run the script
-```bash
-sudo python3 main.py
-```
 
 ## Version
 * `v4.0 Sms-Bomb`
