@@ -1,6 +1,6 @@
 <h1 align="center">Sms-Bombv4.0<br>
 </h1>
-<img src="smsbombv4.0.png" alt="Paris" class="center">
+<img src="smsbombv5.png" alt="Paris" class="center">
 * `📱 💀`<br />
 * `A Sms-Bomber for termux & Linux `
 
@@ -21,6 +21,7 @@ _Don't use this to take revenge_<br />
 ## Tested On :
 <ul>
   <li>Termux</li>
+  <li>Parrot os</li>
 </ul>
 
 ## Termux Issue:
@@ -70,7 +71,7 @@ python3 main.py
 
 
 ## Version
-* `v4.0 Sms-Bomb`
+* `v5.0 Sms-Bomb`
 
 ## Features
 * `B#omb the number unlimited,Custom-sms`
