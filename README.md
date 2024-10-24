@@ -79,7 +79,8 @@ python3 main.py
 * `Free version speed is in goodflow`
 
 ## Partners
-* `Zork/Xlr8`
+* `https://github.com/anubhavanonymous/XLR8_BOMBER`
+* `https://github.com/sw4pn33`
 
 ## Note
 * `This Sms-Bomb is mainly to prank Friends`
